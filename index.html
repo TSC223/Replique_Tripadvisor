@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <script src="https://kit.fontawesome.com/bb54014cd5.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">     
+    
+    <title>Tripadvisor</title>
+</head>
+<body>
+
+
+    <header class="container-fluid no-padding ">
+        <img class="col-xs-5 col-md-2 head_img" src="./asset/img/Tripadvisor_lockup_horizontal_secondary_registered.svg">
+        
+        <div class="seach_btn col-xs-6 col-xs-offset-1 col-md-4 no-padding">
+            <input type="text">
+        </div>
+
+        
+        <nav class="header_right col-md-4 col-md-offset-1 col-xs-12 no-padding">
+            <span class=" col-xs-3 col-md-3">
+                <i class="fas fa-pencil-alt"> </i><span>Avis</span></span>
+            <span class=" col-xs-3 col-md-3">
+                <i class="far fa-heart"> </i><span>Favoris</span></span>
+            <span class=" col-xs-3 col-md-3">
+                <i class="far fa-bell"> </i><span>Alertes</span> </span>
+                
+            <button id="myBtn" class="col-md-3 col-xs-3 connectBtn"> LogIn</button>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+    <!----     MODAL ___FORMULAIRE D'INSCRIPTION___ MODAL     ---->
+                 
+
+
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <section class="modal-content">
+          <span class="close">&times;</span>
+          <form>
+
+            <label for="fname">Nom :</label>
+            <input type="text" name="fname">
+            <label for="fprenom">Prénom :</label>
+            <input type="text" name="fname"><br>
+
+            <label for="fMail">Email :</label>
+            <input type="text"  name="mail"><br>
+
+            <label for="Sujet">Sujet</label><br>
+            <label for="offr_money">Nous offrir 10,000€</label>
+            <input type="checkbox" id="offr_money" name="offr_money"><br>
+            <label for="cdi_vie">CDI a vie</label>
+            <input type="checkbox" id="cdii" name="cdii"><br>
+            <label for="imu_covid">Imunité contre le covid</label>
+            <input type="checkbox" id="coviDimu" name="coviDimu"><br>
+
+            <label for="text_user">Expréssions Libre</label><br>
+            <input type="text" name="text_user"><br>
+
+          </form>
+          </div>
+        </section>
+      
+      </div>
+
+
+
+    <!----     MODAL ___FORMULAIRE D'INSCRIPTION___ MODAL     ---->
+
+
+    
+
+    <div style="margin-left:2.5%;margin-bottom: -3.5%;margin-top: 10%;">
+        <h1 class="title_entry">
+            <span style="color: #ff5d5d;">Explorez</span> Bamako
+        </h1>
+    </div>
+    
+
+    <section  class="header_selection container-fluid col-xs-12">
+        <span class="col-md-4 col-xs-6">Hôtel <i class="fas fa-bed"></i></span>
+        <span class="col-md-4 col-xs-6">Locations de vacances <i class="fas fa-house-damage"></i></span>
+        <span class="col-md-4 col-xs-6">Activités <i class="fas fa-ticket-alt"></i></span>
+        <span class="col-md-4 col-xs-6">Restaurants <i class="fas fa-utensils"></i></span>
+        <span class="col-md-4 col-xs-2">Forums de voyage <i class="fas fa-comments"></i></span>
+        <span class="col-md-4 col-xs-2">Vols <i class="fas fa-plane-departure"></i></span>
+        <span class="col-md-4 col-xs-2">Croisières <i class="fas fa-ship"></i></span>
+        <span class="col-md-4 col-xs-2">Plus <i class="fas fa-ellipsis-h"></i></span>
+    </section>
+    
+
+
+
+    <section class="container-fluid no-padding presentation_picture col-xs-">
+        <div class="col-md-8 col-xs- presentation_part1 no-padding">
+            <img class="col-md-12" src="./asset/img/azalai-grand-hotel.jpg">
+        </div>
+        <div class="col-md-4 col-xs- no-padding presentation_part2">
+            <img class="col-md-12" src="./asset/img/waterfall-cascade.jpg">
+            <img class="col-md-12 presentation_part22" src="./asset/img/room.jpg">
+        </div>
+    </section>
+    
+   
+        
+   
+    <section class="container-fluid no-padding organizer_zone">
+        
+        <div class="col-md-6 first_article">
+           <h1 class=""    >
+            La Ville Lumière éblouit en tous points
+            </h1>
+              <p style="font-size:17px;">
+            <br>Aucun autre endroit au monde ne fait autant rêver que Paris. La ville séduit par son art, son architecture, sa culture et sa cuisine, mais il y a aussi des merveilles plus discrètes qui n’attendent qu’à être explorées : les ruelles pavées pittoresques, les pâtisseries au coin de la rue et les petits bistrots douillets qui vous invitent à boire un verre de beaujolais. Préparez-vous à vous approprier Paris. 
+             </p> 
+        </div>
+        <div class="col-md-5 col-md-offset-1 organizer_drt no-padding">
+            <div class="organiser_text" style="background: #ff5d5d;"> 
+            <h2> Bamako : commencez à organiser !</h2>
+            <p style="font-size:15px;"><br>Créez un voyage pour enregistrer et organiser toutes vos idées et les visualiser sur une carte.</p>
+            <span class="btn">Créez un voyage</span>
+            </div>
+            <img class="col-md-12 organizer_gch_img" src="./asset/img/image_trips_card_medium.png">
+        </div>
+        
+    </section>
+
+
+
+    <section class="container-fluid section1">
+        <div class="col-md-12 intro_diapo">
+        <h1 style="margin-top:10%;">Mali : Les immanquables    </h1>    
+            <div class="col-md-3">
+                 <h3 style="color:#ff5d5d;font-weight:bold;">Se Divertir</h3>
+                 <p>Des lieux à voir, des rues à explorer et des expériences emblématiques à Paris.</p>
+            </div>
+            <div class="col-md-9" id="diaposiPLAY">
+                <div class="diapo">
+                <div>
+                   <img src="./asset/img/radisson-blu-hotel-bamako.jpg">
+                   <i class="far fa-heart"></i>
+                   <div class="detail_photos col-md-12">
+                       <h5>
+                        Tour Eiffel
+                       </h5>
+                       <p>
+                           Tours et plateformes d'observation, Monuments & Points d'intérêt
+                       </p>
+                   </div>
+                </div>
+                
+                <div>
+                    <img src="./asset/img/room.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Musée du Louvre
+                        </h5>
+                        <p>
+                            Bâtiments architecturaux, Musées d'art
+                        </p>
+                    </div>
+                 </div>
+
+
+                <div>
+                    <img src="./asset/img/photo1jpg.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Bastille
+                        </h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur elit. 
+                        </p>
+                    </div>
+                 </div>
+                
+                
+                 <div>
+                    <img src="./asset/img/waterfall-cascade.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Maroc
+                        </h5>
+                        <p>
+                            Tours et plateformes d'observation, Monuments & Points d'intérêt 
+                        </p>
+                    </div>
+                 </div>
+
+
+                 <div>
+                    <img src="./asset/img/room.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Italia
+                        </h5>
+                        <p>
+                            Tours et plateformes d'observation, Monuments & Points d'intérêt 
+                        </p>
+                    </div>
+                 </div>
+
+                 <div>
+                    <img src="./asset/img/photo1jpg.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            New York
+                        </h5>
+                        <p>
+                            Tours et plateformes d'observation, Monuments & Points d'intérêt  
+                        </p>
+                    </div>
+                 </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="container-fluid section2">
+        <div class="col-md-12 intro_diapo"> 
+            <div class="col-md-3">
+                 <h3 style="color:blue;font-weight:bold;">Se Restaurer</h3>
+                 <p>Des lieux à voir, des rues à explorer et des expériences emblématiques à Paris.</p>
+            </div>
+            <div class="col-md-9" id="diaposiPLAY">
+                <div class="diapo">
+                
+                <div>
+                   <img src="./asset/img/frenchie.jpg">
+                   <i class="far fa-heart"></i>
+                   <div class="detail_photos col-md-12">
+                       <h5>
+                        Tour Eiffel
+                       </h5>
+                       <p>
+                           Tours et plateformes d'observation, Monuments & Points d'intérêt
+                       </p>
+                   </div>
+                </div>
+                
+                <div>
+                    <img src="./asset/img/caption.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Musée du Louvre
+                        </h5>
+                        <p>
+                            Bâtiments architecturaux, Musées d'art
+                        </p>
+                    </div>
+                 </div>
+
+
+                <div>
+                    <img src="./asset/img/verjus.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Bastille
+                        </h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur elit. 
+                        </p>
+                    </div>
+                 </div>
+                
+                
+                 <div>
+                    <img src="./asset/img/waterfall-cascade.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Maroc
+                        </h5>
+                        <p>
+                            Tours et plateformes d'observation, Monuments & Points d'intérêt 
+                        </p>
+                    </div>
+                 </div>
+
+
+                 <div>
+                    <img src="./asset/img/room.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Italia
+                        </h5>
+                        <p>
+                            Tours et plateformes d'observation, Monuments & Points d'intérêt 
+                        </p>
+                    </div>
+                 </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container-fluid section3">
+        <div class="col-md-12 intro_diapo"> 
+            <div class="col-md-3">
+                 <h3 style="color:#63d8bb;font-weight:bold;">Se Reposer</h3>
+                 <p>Des lieux à voir, des rues à explorer et des expériences emblématiques à Paris.</p>
+            </div>
+            <div class="col-md-9" id="diaposiPLAY">
+                <div class="diapo">
+                
+                <div>
+                   <img src="./asset/img/frenchie.jpg">
+                   <i class="far fa-heart"></i>
+                   <div class="detail_photos col-md-12">
+                       <h5>
+                        Tour Eiffel
+                       </h5>
+                       <p>
+                           Tours et plateformes d'observation, Monuments & Points d'intérêt
+                       </p>
+                   </div>
+                </div>
+                
+                <div>
+                    <img src="./asset/img/caption.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Musée du Louvre
+                        </h5>
+                        <p>
+                            Bâtiments architecturaux, Musées d'art
+                        </p>
+                    </div>
+                 </div>
+
+
+                <div>
+                    <img src="./asset/img/verjus.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Bastille
+                        </h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur elit. 
+                        </p>
+                    </div>
+                 </div>
+                
+                
+                 <div>
+                    <img src="./asset/img/waterfall-cascade.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Maroc
+                        </h5>
+                        <p>
+                            Tours et plateformes d'observation, Monuments & Points d'intérêt 
+                        </p>
+                    </div>
+                 </div>
+
+
+                 <div>
+                    <img src="./asset/img/room.jpg">
+                    <i class="far fa-heart"></i>
+                    <div class="detail_photos col-md-12">
+                        <h5>
+                            Italia
+                        </h5>
+                        <p>
+                            Tours et plateformes d'observation, Monuments & Points d'intérêt 
+                        </p>
+                    </div>
+                 </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <h1 style="padding: 2%;margin-top:10%;" class="col-md-12">Guides de voyageurs</h1>
+<section class="container-fluid no-padding guideVoyage">
+    
+    <div class="col-md-4 no-padding col-Guid">
+        <img class="col-md-12 mobb" src="./asset/img/notre-salle-de-restaurant.jpg">
+        <h4>Top 10 des choses à faire ou à voir dans le 14ème</h4>
+        <span style="font-size:10px ;display: block;">10 artcles</span>
+        <img class="col-Guides" src="./asset/img/image_trips_card_medium.png"><span> Par Le Reacteur</span>
+    </div>
+    
+    <div class="col-md-4 no-padding col-Guid">
+        <img class="col-md-12 mobb" src="./asset/img/musee-de-montmartre.jpg">
+        <h4>Les 10 monuments et musées de Paris à faire.</h4>
+        <span style="font-size:10px ;display: block;">10 artcles</span>
+        <img class="col-Guides" src="./asset/img/image_trips_card_medium.png"><span> Par Tidjane</span>
+    </div>
+    
+    <div class="col-md-4 no-padding col-Guid">
+        <img class="col-md-12 mobb" src="./asset/img/musee-grevin.jpg">
+        <h4>Summer things to do in Paris | Eatwith</h4>
+        <span style="font-size:10px ;display: block;">10 artcles</span>
+        <img class="col-Guides" src="./asset/img/image_trips_card_medium.png"><span> Par Sissoko</span> 
+    </div>
+    
+</section>
+
+
+
+
+
+
+
+
+
+<section style="margin-top: 8%;" class="col-md-12 container mobb2_forum">
+ <h2>En tendance dans les forums</h2>
+ <p style="text-align: right;">tout afficher</p> 
+</section>
+
+<section class="container-fluid " id="section_55">
+           
+
+    <div class="rang_tandence_forum col-md-4 no-padding">
+        <h4 >Voyages touristiques au Mali</h4>
+        <div class="image_reponse">
+            <img class="" src="./asset/img/waterfall-cascade.jpg">
+            <p>Par <a href="">Khaolouch</a> H6 réponses</p>
+       </div>
+    </div>
+
+    <div class="rang_tandence_forum col-md-4 no-padding">
+        <h4>Voyages touristiques au Mali</h4>
+        <div class="image_reponse">
+             <img class="" src="./asset/img/image_trips_card_medium.png">
+             <p>Par <a href="">Khaolouch</a> H6 réponses</p>
+        </div>
+    </div>
+
+    <div class="rang_tandence_forum col-md-4 no-padding">
+        <h4>Voyages touristiques au Mali</h4>
+        <div class="image_reponse">
+            <img class="" src="./asset/img/musee-de-montmartre.jpg">
+            <p>Par <a href="">Khaolouch</a> H6 réponses</p>
+       </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<div style="margin-left:15px;margin-top:8%;" >
+    <h2>Louez un logement pour votre prochaine escapade</h2>
+    <h4>Locations populaires à Paris</h4>
+</div>
+
+<section class="container-fluid section_Voyage_Paris">
+    
+    <div class="diapo_contain">
+        <i class="far fa-heart"></i>
+        <img class="labell" src="./asset/img/trip_advisor-black.png">
+        <img src="./asset/img/musee-de-montmartre.jpg">
+        <div>
+            <h4 style="font-weight: bold;font-size: 115%;">Luxury, Calm & Elegance in the heart of the Champs-Elysées -915 sq. feet</h4>
+            <span>4 couchages • 1 chambre • 2 salles de bain</span>
+            <span style="text-shadow:1px 1px 1px grey;color:indianred;font-weight:bold;font-size: 120%;">à partir de 496€/nuit</span>
+        </div>
+    </div>
+
+
+    <div class="diapo_contain">
+        <i class="far fa-heart"></i>
+        <img class="labell" src="./asset/img/trip_advisor-black.png">
+        <img src="./asset/img/aspic-paris-maquereau.jpg">
+        <div>
+            <h4 style="font-weight: bold;font-size: 115%;">Luxury, Calm & Elegance in the heart of the Champs-Elysées -915 sq. feet</h4>
+            <span>4 couchages • 1 chambre • 2 salles de bain</span>
+            <span style="text-shadow:1px 1px 1px grey;color:indianred;font-weight:bold;font-size: 120%;">à partir de 496€/nuit</span>
+        </div>
+    </div>
+
+
+    <div class="diapo_contain">
+        <i class="far fa-heart"></i>
+        <img class="labell" src="./asset/img/trip_advisor-black.png">
+        <img src="./asset/img/index.jpg">
+        <div>
+            <h4 style="font-weight: bold;font-size: 115%;">Luxury, Calm & Elegance in the heart of the Champs-Elysées -915 sq. feet</h4>
+            <span>4 couchages • 1 chambre • 2 salles de bain</span>
+            <span style="text-shadow:1px 1px 1px grey;color:indianred;font-weight:bold;font-size: 120%;">à partir de 496€/nuit</span>
+        </div>
+    </div>
+
+    <div class="diapo_contain">
+        <i class="far fa-heart"></i>
+        <img class="labell" src="./asset/img/trip_advisor-black.png">
+        <img src="./asset/img/Parissindex.jpg">
+        <div>
+            <h4 style="font-weight: bold;font-size: 115%;">Luxury, Calm & Elegance in the heart of the Champs-Elysées -915 sq. feet</h4>
+            <span>4 couchages • 1 chambre • 2 salles de bain</span>
+            <span style="text-shadow:1px 1px 1px grey;color:indianred;font-weight:bold;font-size: 120%;">à partir de 496€/nuit</span>
+        </div>
+    </div>
+    
+
+    <div class="diapo_contain">
+        <i class="far fa-heart"></i>
+        <img class="labell" src="./asset/img/trip_advisor-black.png">
+        <img src="./asset/img/photo1jpg.jpg">
+        <div>
+            <h4 style="font-weight: bold;font-size: 115%;">Luxury, Calm & Elegance in the heart of the Champs-Elysées -915 sq. feet</h4>
+            <span>4 couchages • 1 chambre • 2 salles de bain</span>
+            <span style="text-shadow:1px 1px 1px grey;color:indianred;font-weight:bold;font-size: 120%;">à partir de 496€/nuit</span>
+        </div>
+    </div>
+
+    <div class="diapo_contain">
+        <i class="far fa-heart"></i>
+        <img class="labell" src="./asset/img/trip_advisor-black.png">
+        <img src="./asset/img/Parisindex.jpg">
+        <div>
+            <h4 style="font-weight: bold;font-size: 115%;">Luxury, Calm & Elegance in the heart of the Champs-Elysées -915 sq. feet</h4>
+            <span>4 couchages • 1 chambre • 2 salles de bain</span>
+            <span style="text-shadow:1px 1px 1px grey;color:indianred;font-weight:bold;font-size: 120%;">à partir de 496€/nuit</span>
+        </div>
+    </div>
+
+    <div class="diapo_contain">
+        <i class="far fa-heart"></i>
+        <img class="labell" src="./asset/img/trip_advisor-black.png">
+        <img src="v/img/ParisInss.jpg">
+        <div>
+            <h4 style="font-weight: bold;font-size: 115%;">Luxury, Calm & Elegance in the heart of the Champs-Elysées -915 sq. feet</h4>
+            <span>4 couchages • 1 chambre • 2 salles de bain</span>
+            <span style="text-shadow:1px 1px 1px grey;color:indianred;font-weight:bold;font-size:120%;">à partir de 496€/nuit</span>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<footer class="container-fluid col-xs-12">
+    <div class="col-md-4 col-md-offset-1 contact_info col-xs-12">
+        <span><i class="fas fa-phone"></i>  06 22 33 44 55</span>
+        <span><i class="far fa-envelope"></i> tidjanesi@outlook.com</span>
+        <span><i class="fab fa-wordpress"></i> ts-copyright.tidjanesi.ovh/</span>
+    </div>
+    <div class="col-md-2 col-xs-12 logo">
+        <img src="./asset/img/trip_advisor-black.png">
+    </div>
+    <div class="col-md-4 col-xs-12 theMain">
+        <h3 style="color:black;margin-top: -25px;">
+            Menu
+        </h3>
+        <a href="">AVIS</a>
+        <a href="">FAVORIS</a>
+        <a href="">Alertes</a>
+        <a href="">Login</a>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+<script>
+
+// Get the modal
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+} 
+
+</script>
+   
+
+
+
+
+</body>
+</html>

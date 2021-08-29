@@ -1,0 +1,491 @@
+@import url(/asset/css/reset.css);
+
+.no-padding > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+section {
+  font-family: "poppins";
+}
+header {
+  position: fixed;
+  z-index: 3;
+  background: url(../img/transparentBLANC49.png) no-repeat;
+  height: 70px;
+  width: 100%;
+  font-weight: bold;
+  top: 0;
+  padding-top: 1%;
+  text-align: center;
+}
+
+.seach_btn input {
+  width: 80%;
+  margin-left: 10%;
+  padding: 3%;
+  opacity: 0.2;
+}
+.seach_btn input:hover {
+  box-shadow: 0px 0px 11px lightgrey;
+  opacity: 1;
+}
+nav {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+}
+.header_right span,
+.connectBtn {
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 2.5%;
+}
+
+/* MODAL INSCRIPTION */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(255, 93, 93, 0.8); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #efefef;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* MODAL INSCRIPTION*/
+
+.connectBtn {
+  background: black;
+  color: white;
+  padding: 1.5%;
+}
+.header_right span:hover {
+  background: #efefef;
+}
+.connectBtn:hover {
+  opacity: 0.8;
+}
+
+.title_entry {
+  margin-top: 10%;
+  font-family: "Impact";
+  font-weight: 900;
+  font-size: 55px;
+}
+.header_selection {
+  padding: 3.5%;
+}
+.header_selection span {
+  width: 24%;
+  border: 1px solid black;
+  font-size: 17px;
+  margin: 0.5%;
+  padding: 1.1%;
+  border-radius: 15px;
+}
+.header_selection span i {
+  float: right;
+  padding: 1%;
+  color: #ff5d5d;
+}
+.header_selection span:hover {
+  color: white;
+  background: black;
+  box-shadow: 0px 0px 6px grey;
+}
+
+.presentation_picture {
+  height: 450px;
+  overflow: hidden;
+}
+.presentation_part2 img,
+.presentation_part1 img {
+  border: 2px solid white;
+}
+.presentation_part2 img {
+  height: 225px;
+  width: 100%;
+}
+
+.organizer_zone {
+  margin-top: 30px;
+}
+
+.first_article h1 {
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 10%;
+  color: black;
+}
+
+.organiser_text {
+  border-radius: 10px 10px 0 0;
+  padding: 5%;
+}
+.organizer_gch_img {
+  border-radius: 0 0 10px 10px;
+  margin: 0;
+  height: 220px;
+}
+.organizer_drt {
+  margin-top: 5%;
+}
+.organizer_drt .btn {
+  background: black;
+  color: white;
+  border-radius: 20px;
+  padding: 3.5%;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+.organizer_drt h2,
+p,
+.btn {
+  padding-left: 6%;
+  margin-right: 6%;
+  color: black;
+}
+
+/*.........................*/
+
+/*.........................*/
+
+/*.........................*/
+
+.section1,
+.section2,
+.section3 {
+  margin-bottom: 2%;
+}
+
+.diapo {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.diapo div {
+  margin: 15px;
+  position: relative;
+}
+.diapo img {
+  width: 260px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 8px 0px;
+}
+.diapo .far {
+  position: absolute;
+  top: 0.5px;
+  z-index: 1;
+  color: #ff5d5d;
+  font-size: 25px;
+  left: 220px;
+  padding: 2.5%;
+  border-radius: 100%;
+  background: url(../img/TRANSPARENTblanc70.png);
+}
+.diapo .far:hover {
+  opacity: 0.7;
+}
+
+#diaposiPLAY h5 {
+  font-weight: bold;
+  font-size: 180%;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+#diaposiPLAY p {
+  color: #efefef;
+  font-size: 11px;
+  text-shadow: 0px 0px 1px black;
+}
+.section1 .diapo .detail_photos {
+  margin-top: -15%;
+  height: 85px;
+  border-radius: 8px;
+  position: relative;
+  font-size: 12px;
+  padding: 0px 5px 5px 5px;
+  border: 1.5px solid #ff5d5d;
+  background: url("../img/agrimat_transparent60.png");
+}
+.section2 .diapo .detail_photos {
+  margin-top: -15%;
+  height: 85px;
+  border-radius: 8px;
+  position: relative;
+  font-size: 12px;
+  padding: 0px 5px 5px 5px;
+  border: 1.5px solid blue;
+  background: url("../img/agrimat_transparent60.png");
+}
+.section3 .diapo .detail_photos {
+  margin-top: -15%;
+  height: 85px;
+  border-radius: 8px;
+  position: relative;
+  font-size: 12px;
+  padding: 0px 5px 5px 5px;
+  border: 1.5px solid rgb(99, 216, 187);
+  background: url("../img/agrimat_transparent60.png");
+}
+
+.diapo .detail_photos {
+  margin-top: -15%;
+  height: 85px;
+  border-radius: 8px;
+  position: relative;
+  font-size: 12px;
+  padding: 0px 5px 5px 5px;
+  border: 1.5px solid #ff5d5d;
+  background: url("../img/agrimat_transparent60.png");
+}
+.section2 .diapo .far {
+  color: blue;
+}
+.section3 .diapo .far {
+  color: rgb(99, 216, 187);
+}
+
+.guideVoyage {
+  margin-top: 80px;
+  display: flex;
+  font-family: "Poppins";
+}
+.guideVoyage .col-md-4 {
+  margin: 8px;
+}
+.guideVoyage h4 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.guideVoyage span {
+  display: bloc;
+  font-size: 12px;
+}
+.col-Guides {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+#section_55 {
+  display: flex;
+}
+.rang_tandence_forum {
+  background: #faf1ed;
+  padding: 2.5%;
+  border-radius: 15px;
+  margin: 8px;
+  box-shadow: 1px 1px 6px gray;
+}
+.rang_tandence_forum img {
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+}
+.rang_tandence_forum h4 {
+  display: block;
+}
+.image_reponse {
+  display: flex;
+  margin-top: 13%;
+}
+
+.section_Voyage_Paris {
+  overflow: scroll;
+  scrollbar-width: none;
+  display: flex;
+}
+.diapo_contain {
+  padding: 10px;
+  font-size: 13px;
+  position: relative;
+}
+.diapo_contain img {
+  width: 300px;
+  height: 250px;
+}
+.section_Voyage_Paris .far {
+  font-size: 25px;
+  border: 1.5px solid indianred;
+  border-radius: 100%;
+  padding: 2.5%;
+  left: 265px;
+  color: gold;
+  top: 20px;
+  position: absolute;
+  z-index: 1;
+}
+.section_Voyage_Paris .far:hover {
+  background: gold;
+  color: black;
+  border: 2px solid black;
+}
+.section_Voyage_Paris .labell {
+  top: 55%;
+  left: 5%;
+  background: url(../img/TRANSPARENTblanc70.png);
+  height: 50px;
+  width: 50px;
+  border: 1.5px solid gold;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.section_Voyage_Paris span {
+  display: block;
+}
+
+footer {
+  background: linear-gradient(to bottom, white, #faf1ed 70%);
+  display: flex;
+
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  font-family: "Poppins";
+}
+footer div {
+  border: 2px solid #fafafa;
+  height: 200px;
+  margin: 2.5px;
+  padding: 5%;
+  width: 30%;
+  background: #faf1ed;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 12px 12px 0px;
+}
+footer .contact_info span {
+  display: block;
+  font-size: 18px;
+}
+footer .logo img {
+  max-height: 80px;
+}
+footer .theMain a {
+  color: black;
+  display: block;
+}
+
+/* MEDIA QUERY ZONE MOBILE*/
+
+@media (max-width: 576px) {
+  header {
+    height: auto;
+    background: lightgray;
+    padding-bottom: 1%;
+    border-bottom: 2px solid salmon;
+  }
+  nav {
+    margin-left: 3%;
+  }
+  .header_selection {
+    padding-left: 14%;
+  }
+  .title_entry {
+    margin-left: 2%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  .header_selection span {
+    order: 2px solid green;
+    width: 49%;
+    height: 75px;
+    font-size: 15.5px;
+  }
+  .presentation_part1 {
+    display: none;
+  }
+  .presentation_part2 {
+    margin-top: 5%;
+  }
+  .presentation_part22 {
+    display: none;
+  }
+  .organizer_zone {
+    margin-top: -45%;
+  }
+
+  .guideVoyage {
+    overflow-y: scroll;
+    margin-top: -0.25%;
+  }
+  .mobb {
+    height: 250px;
+  }
+  #section_55 {
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 25%;
+  }
+  .rang_tandence_forum {
+    height: 160px;
+    width: 95%;
+  }
+  .mobb2_forum {
+    top: 45px;
+    left: 10px;
+  }
+
+  .section_Voyage_Paris {
+    width: 95%;
+  }
+  footer {
+    margin-top: 25%;
+  }
+  footer div {
+    height: 170px;
+    padding: 10%;
+  }
+}
+
+@media (max-width: 1048px) {
+  .header {
+    height: auto;
+    background: black;
+    border: none;
+  }
+  .head_img {
+    max-height: 55px;
+  }
+  .title_entry {
+    margin-top: 20%;
+  }
+
+  .header_selection span {
+    width: 49%;
+    height: 50px;
+    font-size: 15.5px;
+  }
+}
+
+/* MEDIA QUERY ZONE MOBILE*/
